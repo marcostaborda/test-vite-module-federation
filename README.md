@@ -1,4 +1,4 @@
-# React - Vite Federation Demo
+# React - Vite Module Federation
 
 Este exemplo demonstra o consumo de módulos federados a partir de um bundle Vite. O `host` (baseado em React) depende de componentes expostos pelos aplicativos remotos, como `ads`, `news`, `sponsors` e `weather`.
 
