@@ -14,7 +14,13 @@ export default defineConfig({
         sponsors: 'http://localhost:5003/assets/remoteEntry.js',
         weather: 'http://localhost:5004/assets/remoteEntry.js',
       },
-      shared: ['react', 'react-dom'],
+      shared: [
+        '@emotion/styled',
+        '@emotion/react',
+        '@mui/material',
+        'react',
+        'react-dom'
+      ],
     }) as PluginOption
   ],
   build: {
